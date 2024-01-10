@@ -1,0 +1,46 @@
+.wrapper {
+    text-align: center;
+}
+
+.wrapper h1 {
+    color: brown;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.wrapper h2 {
+    color: seagreen;
+    font-size: 30px;
+}
+.wrapper h1 span{
+    border-bottom: 4px solid black;
+}
+
+.wrapper p {
+    font-size: 20px;
+    margin: 50px;
+    
+}
+
+#delete {
+    width: 120px;
+    height: 50px;
+    background: rgb(210, 79, 79);
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.delt {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#delete:hover {
+    background: rgb(238, 61, 61);
+}
+
