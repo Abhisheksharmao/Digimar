@@ -3,29 +3,33 @@
 }
 
 .wrapper h1 {
-    color: brown;
+    color: blueviolet;
     font-size: 50px;
     margin-top: 20px;
 }
 
 .wrapper h2 {
-    color: seagreen;
+    color: lightseagreen;
     font-size: 30px;
 }
-.wrapper h1 span{
+
+.wrapper h1 span {
     border-bottom: 4px solid black;
 }
 
 .wrapper p {
     font-size: 20px;
-    margin: 50px;
-    
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 390px;
+    overflow: scroll;
+
 }
 
 #delete {
-    width: 120px;
+    width: 200px;
     height: 50px;
-    background: rgb(210, 79, 79);
+    background: #127;
     padding: 10px;
     font-size: 20px;
     color: white;
@@ -34,13 +38,12 @@
     box-shadow: 5px 5px 10px grey;
 }
 
+#delete:hover {
+    background: rgb(255, 0, 0);
+}
+
 .delt {
     display: flex;
+    margin-top: 30px;
     justify-content: center;
-    margin-top: 50px;
 }
-
-#delete:hover {
-    background: rgb(238, 61, 61);
-}
-

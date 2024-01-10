@@ -6,7 +6,6 @@ export default function Newblog() {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [body, setBody] = useState("");
-
   const [ispending, setIspending] = useState(false);
 
   let history = useNavigate();
@@ -33,11 +32,13 @@ export default function Newblog() {
 
       <div >
 
-        <form onSubmit={handelsubmit}>
+        <form onSubmit={handelsubmit} >
 
           <h2 style={{ textAlign: "center" }}>Add New Blog</h2>
 
+
           <div className='cont'>
+
 
             <input className='inputbox' type="text" id='name' placeholder='+   Enter Name...' required value={author} onChange={(e) => setAuthor(e.target.value)} />
 
@@ -53,8 +54,9 @@ export default function Newblog() {
 
 
           <br />
-
-          <textarea className='tex' placeholder='+   Enter your story' required name="" id="text_ar" cols="89" rows="12" onChange={(e) => setBody(e.target.value)}></textarea>
+          <div className='flex'>
+            <textarea className='tex' placeholder='+   Enter your story' required name="" id="text_ar" cols="70" rows="7" onChange={(e) => setBody(e.target.value)}></textarea>
+          </div>
 
           <br />
 

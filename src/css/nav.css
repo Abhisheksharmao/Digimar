@@ -1,7 +1,13 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background: #5d001e;
+    background: blueviolet;
+}
+
+#searchbtn,
+#searchbtn::placeholder {
+    color: black;
+    padding-left: 20px;
 }
 
 * {
@@ -11,7 +17,7 @@
 }
 
 .logo h1 {
-    color: #ee4c7c;
+    color: whitesmoke;
     font-size: 40px;
     font-weight: bold;
 
@@ -27,13 +33,30 @@
     margin: 5px;
 }
 
-.tabs {
+.tab2 {
+    margin-left: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.tab1 {
     margin-left: 20px;
 }
-#searchbtn{
+
+.tab1:hover {
+    border-bottom: 3px solid black;
+}
+
+.tab2:hover {
+    background: wheat;
+}
+
+#searchbtn {
     width: 500px;
     height: 35px;
     margin-top: 15px;
-    border-radius: 30px;
-    inset: 0;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
 }

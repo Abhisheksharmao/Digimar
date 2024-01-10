@@ -13,6 +13,11 @@
     color: rgba(0, 0, 0, 0.559);
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
 .cont {
     display: flex;
     justify-content: center;
@@ -35,10 +40,10 @@
 
 #text_ar {
     background: none;
+    font-family:  sans-serif;
     border: 0;
     outline: 0;
     margin: 5px;
-    border-bottom: 2px solid black;
 }
 
 #text_ar,
@@ -48,8 +53,10 @@
 }
 
 #blog_add {
-    background: #ee4c7c;
+    background: #227;
     padding: 10px;
+    outline: 0;
+    border: 0;
     font-size: 20px;
     border-radius: 20px;
     color: white;
@@ -57,6 +64,9 @@
     width: 200px;
     margin-top: 5px;
 }
+#blog_add:hover{
+    background: rgba(74, 74, 207, 0.801);
+} 
 
 .blog_add {
     display: flex;

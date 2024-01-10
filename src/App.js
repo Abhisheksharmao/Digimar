@@ -3,11 +3,13 @@ import Blog from "./blog";
 import Nav from "./nav";
 import Blogdetails from "./blogdetails";
 import Notfound from "./notfound";
-
+import './css/App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
 function App() {
   return (
-    <div classNameName="App" style={{background:"#e3afbc" , height:"100vh"}} >
+    <div classNameName="apple" >
       <BrowserRouter>
       <Nav></Nav>
         <Routes>
